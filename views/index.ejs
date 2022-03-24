@@ -1,0 +1,25 @@
+
+<%- include('parts/header') %>
+
+<div id="app">
+<!-- App.vue -->
+
+<v-app class="red lighten-4">
+  <!-- Sizes your content based upon application components -->
+    <Navbar></Navbar>
+    <!-- Provides the application the proper gutter -->
+  <v-main>  
+    <v-container fluid class="mx-4 grey-lighten-1"> 
+      <!-- If using vue-router -->
+      <router-view></router-view>
+    </v-container>
+  </v-main>
+
+</v-app>
+
+</div>
+
+      <script src="app.bundle.js"></script>
+
+</body>
+</html>
